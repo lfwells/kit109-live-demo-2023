@@ -181,13 +181,11 @@ GameObject:
   - component: {fileID: 339611229}
   - component: {fileID: 339611228}
   - component: {fileID: 339611227}
+  - component: {fileID: 339611231}
   - component: {fileID: 339611226}
   - component: {fileID: 339611225}
   - component: {fileID: 339611230}
-  - component: {fileID: 339611231}
   - component: {fileID: 339611232}
-  - component: {fileID: 339611233}
-  - component: {fileID: 339611234}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -381,47 +379,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339611224}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d257b0624d74e7044bbc6cf87ece4c08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 320
---- !u!114 &339611233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339611224}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e827a95421dda5845b84af86520b4e65, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c1fa0e9b6a4a2d4b95468e7a26a7cfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 320
-  radius: 3
-  collidersNearMe: []
-  numberOfCollidersNearMe: 0
---- !u!114 &339611234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339611224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a67a6fcb27508ee4bb3a2d67ac8cf166, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 320
 --- !u!1 &725972059
 GameObject:
   m_ObjectHideFlags: 0
