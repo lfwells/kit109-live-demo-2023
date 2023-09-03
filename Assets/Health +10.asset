@@ -10,6 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a8f9236eac370a0489eb9d72366ff5be, type: 3}
-  m_Name: HealthPlus10
+  m_Name: Health +10
   m_EditorClassIdentifier: 
+  icon: {fileID: 8783841811308526567, guid: 156d510b2858ba7479542dfb1f7df463, type: 3}
   maxHealthIncrease: 10

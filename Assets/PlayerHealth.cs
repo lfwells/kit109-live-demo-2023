@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float health;
+    public float maxHealth = 10;
 
-    // Update is called once per frame
-    void Update()
+    void OnGUI()
     {
-        
+        GUI.TextArea(new Rect(10, 10, 100, 20), "Health: " + health + " / "+maxHealth);   
     }
 }

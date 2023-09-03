@@ -9,6 +9,6 @@ public class MaxHealthPowerup : Powerup
 
     public override void Apply(GameObject player)
     {
-        //player.GetComponent<PlayerHealth>().health += maxHealthIncrease;
+        player.GetComponent<PlayerHealth>().maxHealth += maxHealthIncrease;
     }
 }

@@ -384,6 +384,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c1fa0e9b6a4a2d4b95468e7a26a7cfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 10
 --- !u!1 &725972059
 GameObject:
   m_ObjectHideFlags: 0
@@ -3762,7 +3764,7 @@ PrefabInstance:
     - target: {fileID: 114268010049753802, guid: 4ecf3bfbf66d59d4f9fc8fcc153d6dc4,
         type: 3}
       propertyPath: powerups.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114268010049753802, guid: 4ecf3bfbf66d59d4f9fc8fcc153d6dc4,
         type: 3}
@@ -3775,6 +3777,12 @@ PrefabInstance:
       propertyPath: powerups.Array.data[1]
       value: 
       objectReference: {fileID: 11400000, guid: 2e67223be4dac874cb5eaab29d3c8b5c,
+        type: 2}
+    - target: {fileID: 114268010049753802, guid: 4ecf3bfbf66d59d4f9fc8fcc153d6dc4,
+        type: 3}
+      propertyPath: powerups.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 054377e5e97f92148a771d302d924e94,
         type: 2}
     - target: {fileID: 5678074426510259901, guid: 4ecf3bfbf66d59d4f9fc8fcc153d6dc4,
         type: 3}
