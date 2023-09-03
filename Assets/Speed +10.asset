@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bc53bcd6814ad3429850990c9cef2ec, type: 3}
-  m_Name: MaxSpeed5
+  m_Name: Speed +10
   m_EditorClassIdentifier: 
-  icon: {fileID: 9141469381501792283, guid: 156d510b2858ba7479542dfb1f7df463, type: 3}
-  maxSpeedIncrease: 5
+  icon: {fileID: 1906634548277523092, guid: 156d510b2858ba7479542dfb1f7df463, type: 3}
+  maxSpeedIncrease: 10
