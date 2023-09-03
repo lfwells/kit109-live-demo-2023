@@ -169,10 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   directorToPlay: {fileID: 5678074426510259901}
-  powerups: []
   upgradeCanvas: {fileID: 6752113928198660446}
-  powerupIcon: {fileID: 4705389011587228848, guid: 95b7b7c06b78f974a89872bfc6f7e6fd,
-    type: 3}
 --- !u!320 &5678074426510259901
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -335,13 +332,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4343147245426113156}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 0, b: 0, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -396,7 +393,6 @@ GameObject:
   - component: {fileID: 3855022298869967099}
   - component: {fileID: 1138564728523409119}
   - component: {fileID: 6812656765401173345}
-  - component: {fileID: 5059352681153467346}
   m_Layer: 5
   m_Name: UpgradeCanvas
   m_TagString: Untagged
@@ -488,16 +484,3 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &5059352681153467346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6752113928198660446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3288519486cd1e641b97ff33dd164dec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powerups: []

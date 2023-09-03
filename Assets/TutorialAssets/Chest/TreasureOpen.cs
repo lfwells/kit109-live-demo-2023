@@ -6,10 +6,8 @@ using UnityEngine.Playables;
 public class TreasureOpen : MonoBehaviour {
     
     public PlayableDirector directorToPlay;
-
-    public List<Powerup> powerups;
+    
     public GameObject upgradeCanvas;
-    public GameObject powerupIcon;
    
     bool inArea;
     private void OnTriggerEnter2D(Collider2D collision)
@@ -28,11 +26,8 @@ public class TreasureOpen : MonoBehaviour {
             directorToPlay.Play();
             
             upgradeCanvas.SetActive(true);
-            foreach (var powerup in powerups)
-            {
-                var icon = Instantiate(powerupIcon, upgradeCanvas.transform.GetChild(0));
-                icon.GetComponent<PowerupIcon>().SetPowerup(powerup);                
-            }
+
+
         }
     }
 }
