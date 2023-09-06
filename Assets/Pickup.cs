@@ -2,11 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
+public class BadPickupIdea
+{
+    public int healthAmount;
+}
+
 public class Pickup : MonoBehaviour
 {
     public List<Powerup> powerupsToChooseFrom;
     
     Powerup chosenPowerup;
+    
+    public List<BadPickupIdea> thisIsDumb;
+    
+    
     
     void Start()
     {

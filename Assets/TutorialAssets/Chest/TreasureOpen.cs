@@ -8,6 +8,8 @@ public class TreasureOpen : MonoBehaviour {
     public PlayableDirector directorToPlay;
     
     public GameObject upgradeCanvas;
+    public GameObject powerupButtonPrefab;
+    public List<Powerup> thingsInTheChest;
    
     bool inArea;
     private void OnTriggerEnter2D(Collider2D collision)
@@ -27,7 +29,11 @@ public class TreasureOpen : MonoBehaviour {
             
             upgradeCanvas.SetActive(true);
 
-
+            foreach (var powerup in thingsInTheChest)
+            {
+                var button = Instantiate(powerupButtonPrefab, upgradeCanvas.transform.GetChild(0));
+                button.GetComponent<PowerupIcon>().powerup = powerup;
+            }
         }
     }
 }
