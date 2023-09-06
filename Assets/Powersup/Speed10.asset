@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be529b3dd688b94429fe49d1df774598, type: 3}
-  m_Name: MaxHealth10
+  m_Script: {fileID: 11500000, guid: a6a36cd06b20a40a5a4d538806909224, type: 3}
+  m_Name: Speed10
   m_EditorClassIdentifier: 
-  icon: {fileID: 9141469381501792283, guid: 156d510b2858ba7479542dfb1f7df463, type: 3}
-  healthAmount: 10
+  icon: {fileID: 1906634548277523092, guid: 156d510b2858ba7479542dfb1f7df463, type: 3}
+  speedMultipiler: 2

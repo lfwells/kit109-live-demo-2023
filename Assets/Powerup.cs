@@ -2,15 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Powerup", menuName = "Powerups/BasicPowerUp")]
-public class Powerup : ScriptableObject
+public abstract class Powerup : ScriptableObject
 {
     public Sprite icon;
     
-    public int healthAmount;
+    public abstract void ApplyPowerup(GameObject player);
     
-    public void ApplyPowerup(GameObject player)
+    
+}
+
+/* for benji <3
+public class TemporaryPowerup : Powerup
+{
+    public Powerup powerup;
+    public float buffTime;
+    
+    public override void ApplyPowerup(GameObject player)
     {
-        player.GetComponent<PlayerHealth>().maxHealth += healthAmount;
+        player.StartCoroutine(BuffRoutine(player));
+    }
+    IEnumerator BuffRoutine(GameObject player)
+    {
+        powerup.ApplyPowerup(player);
+        
+        yield return WaitForSeconds(buffTime);
+        
+        //powerup.RevokePowerup(player);
     }
 }
+*/

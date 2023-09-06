@@ -418,8 +418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupsToChooseFrom:
-  - {fileID: 11400000, guid: 578ee9393868d4f0cad6d0a1c9e1f2c9, type: 2}
-  - {fileID: 11400000, guid: 682373d9b87fa40b6be98496ff3534f5, type: 2}
+  - {fileID: 11400000, guid: 80276066a5bde403c868ae0d7b652c20, type: 2}
 --- !u!58 &358598481
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -653,7 +652,7 @@ Transform:
   m_GameObject: {fileID: 725972059}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.43432426, y: 0, z: -10}
+  m_LocalPosition: {x: -0.39484024, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -691,8 +690,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupsToChooseFrom:
-  - {fileID: 11400000, guid: 578ee9393868d4f0cad6d0a1c9e1f2c9, type: 2}
-  - {fileID: 11400000, guid: 682373d9b87fa40b6be98496ff3534f5, type: 2}
+  - {fileID: 11400000, guid: 9f3a62d2b8dc64e18a8bab181dcb8aef, type: 2}
+  - {fileID: 11400000, guid: b18b079d20d2f4f99b479cc3316e0acb, type: 2}
+  - {fileID: 11400000, guid: 212cd8ea9019744c39e74569c36d79f1, type: 2}
 --- !u!58 &735799659
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -973,8 +973,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupsToChooseFrom:
-  - {fileID: 11400000, guid: 578ee9393868d4f0cad6d0a1c9e1f2c9, type: 2}
-  - {fileID: 11400000, guid: 682373d9b87fa40b6be98496ff3534f5, type: 2}
+  - {fileID: 11400000, guid: 9f3a62d2b8dc64e18a8bab181dcb8aef, type: 2}
+  - {fileID: 11400000, guid: b18b079d20d2f4f99b479cc3316e0acb, type: 2}
+  - {fileID: 11400000, guid: 212cd8ea9019744c39e74569c36d79f1, type: 2}
 --- !u!58 &877299287
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1110,8 +1111,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupsToChooseFrom:
-  - {fileID: 11400000, guid: 578ee9393868d4f0cad6d0a1c9e1f2c9, type: 2}
-  - {fileID: 11400000, guid: 682373d9b87fa40b6be98496ff3534f5, type: 2}
+  - {fileID: 11400000, guid: 9f3a62d2b8dc64e18a8bab181dcb8aef, type: 2}
+  - {fileID: 11400000, guid: b18b079d20d2f4f99b479cc3316e0acb, type: 2}
+  - {fileID: 11400000, guid: 212cd8ea9019744c39e74569c36d79f1, type: 2}
 --- !u!58 &884996731
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4402,7 +4404,7 @@ Transform:
   m_GameObject: {fileID: 1753722681}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.43432426, y: 0, z: -10}
+  m_LocalPosition: {x: -0.39484024, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4614,8 +4616,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupsToChooseFrom:
-  - {fileID: 11400000, guid: 578ee9393868d4f0cad6d0a1c9e1f2c9, type: 2}
-  - {fileID: 11400000, guid: 682373d9b87fa40b6be98496ff3534f5, type: 2}
+  - {fileID: 11400000, guid: 9f3a62d2b8dc64e18a8bab181dcb8aef, type: 2}
+  - {fileID: 11400000, guid: b18b079d20d2f4f99b479cc3316e0acb, type: 2}
+  - {fileID: 11400000, guid: 212cd8ea9019744c39e74569c36d79f1, type: 2}
 --- !u!58 &1838139336
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4751,8 +4754,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupsToChooseFrom:
-  - {fileID: 11400000, guid: 578ee9393868d4f0cad6d0a1c9e1f2c9, type: 2}
-  - {fileID: 11400000, guid: 682373d9b87fa40b6be98496ff3534f5, type: 2}
+  - {fileID: 11400000, guid: 9f3a62d2b8dc64e18a8bab181dcb8aef, type: 2}
+  - {fileID: 11400000, guid: b18b079d20d2f4f99b479cc3316e0acb, type: 2}
+  - {fileID: 11400000, guid: 212cd8ea9019744c39e74569c36d79f1, type: 2}
 --- !u!58 &2137905141
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -18,8 +18,6 @@ public class Pickup : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            print("picked up "+chosenPowerup.healthAmount);
-            
             chosenPowerup.ApplyPowerup(other.gameObject);
             
             Destroy(gameObject);
