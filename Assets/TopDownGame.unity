@@ -420,6 +420,7 @@ MonoBehaviour:
   powerupsToChooseFrom:
   - {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377, type: 2}
   - {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07, type: 2}
+  - {fileID: 11400000, guid: f7eb86c9e90ddfc468cd6d9cd8333a37, type: 2}
   thisIsDumb:
   - healthAmount: 359
 --- !u!58 &358598481
@@ -950,6 +951,7 @@ MonoBehaviour:
   powerupsToChooseFrom:
   - {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377, type: 2}
   - {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07, type: 2}
+  - {fileID: 11400000, guid: f7eb86c9e90ddfc468cd6d9cd8333a37, type: 2}
   thisIsDumb:
   - healthAmount: 100
   - healthAmount: 50
@@ -1236,6 +1238,7 @@ MonoBehaviour:
   powerupsToChooseFrom:
   - {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377, type: 2}
   - {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07, type: 2}
+  - {fileID: 11400000, guid: f7eb86c9e90ddfc468cd6d9cd8333a37, type: 2}
   thisIsDumb:
   - healthAmount: 359
 --- !u!58 &877299287
@@ -1375,6 +1378,7 @@ MonoBehaviour:
   powerupsToChooseFrom:
   - {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377, type: 2}
   - {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07, type: 2}
+  - {fileID: 11400000, guid: f7eb86c9e90ddfc468cd6d9cd8333a37, type: 2}
   thisIsDumb:
   - healthAmount: 359
 --- !u!58 &884996731
@@ -4620,7 +4624,7 @@ PrefabInstance:
     - target: {fileID: 114268010049753802, guid: 4ecf3bfbf66d59d4f9fc8fcc153d6dc4,
         type: 3}
       propertyPath: thingsInTheChest.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114268010049753802, guid: 4ecf3bfbf66d59d4f9fc8fcc153d6dc4,
         type: 3}
@@ -4633,6 +4637,12 @@ PrefabInstance:
       propertyPath: thingsInTheChest.Array.data[1]
       value: 
       objectReference: {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07,
+        type: 2}
+    - target: {fileID: 114268010049753802, guid: 4ecf3bfbf66d59d4f9fc8fcc153d6dc4,
+        type: 3}
+      propertyPath: thingsInTheChest.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f7eb86c9e90ddfc468cd6d9cd8333a37,
         type: 2}
     - target: {fileID: 5678074426510259901, guid: 4ecf3bfbf66d59d4f9fc8fcc153d6dc4,
         type: 3}
@@ -5017,6 +5027,7 @@ MonoBehaviour:
   powerupsToChooseFrom:
   - {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377, type: 2}
   - {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07, type: 2}
+  - {fileID: 11400000, guid: f7eb86c9e90ddfc468cd6d9cd8333a37, type: 2}
   thisIsDumb:
   - healthAmount: 359
 --- !u!58 &1838139336
@@ -5299,6 +5310,7 @@ MonoBehaviour:
   powerupsToChooseFrom:
   - {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377, type: 2}
   - {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07, type: 2}
+  - {fileID: 11400000, guid: f7eb86c9e90ddfc468cd6d9cd8333a37, type: 2}
   thisIsDumb:
   - healthAmount: 359
 --- !u!58 &2137905141
