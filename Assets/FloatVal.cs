@@ -26,4 +26,8 @@ public class FloatVal : ScriptableObject, ISerializationCallbackReceiver
     {
         return reference.Value;
     }
+    public static implicit operator string(FloatVal reference)
+    {
+        return reference.Value.ToString();
+    }
 }
