@@ -418,7 +418,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupsToChooseFrom:
-  - {fileID: 11400000, guid: 80276066a5bde403c868ae0d7b652c20, type: 2}
+  - {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377, type: 2}
+  - {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07, type: 2}
   thisIsDumb:
   - healthAmount: 359
 --- !u!58 &358598481
@@ -947,9 +948,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupsToChooseFrom:
-  - {fileID: 11400000, guid: 9f3a62d2b8dc64e18a8bab181dcb8aef, type: 2}
-  - {fileID: 11400000, guid: b18b079d20d2f4f99b479cc3316e0acb, type: 2}
-  - {fileID: 11400000, guid: 212cd8ea9019744c39e74569c36d79f1, type: 2}
+  - {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377, type: 2}
+  - {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07, type: 2}
   thisIsDumb:
   - healthAmount: 100
   - healthAmount: 50
@@ -1234,9 +1234,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupsToChooseFrom:
-  - {fileID: 11400000, guid: 9f3a62d2b8dc64e18a8bab181dcb8aef, type: 2}
-  - {fileID: 11400000, guid: b18b079d20d2f4f99b479cc3316e0acb, type: 2}
-  - {fileID: 11400000, guid: 212cd8ea9019744c39e74569c36d79f1, type: 2}
+  - {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377, type: 2}
+  - {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07, type: 2}
   thisIsDumb:
   - healthAmount: 359
 --- !u!58 &877299287
@@ -1374,9 +1373,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupsToChooseFrom:
-  - {fileID: 11400000, guid: 9f3a62d2b8dc64e18a8bab181dcb8aef, type: 2}
-  - {fileID: 11400000, guid: b18b079d20d2f4f99b479cc3316e0acb, type: 2}
-  - {fileID: 11400000, guid: 212cd8ea9019744c39e74569c36d79f1, type: 2}
+  - {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377, type: 2}
+  - {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07, type: 2}
   thisIsDumb:
   - healthAmount: 359
 --- !u!58 &884996731
@@ -4628,13 +4626,13 @@ PrefabInstance:
         type: 3}
       propertyPath: thingsInTheChest.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 80276066a5bde403c868ae0d7b652c20,
+      objectReference: {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377,
         type: 2}
     - target: {fileID: 114268010049753802, guid: 4ecf3bfbf66d59d4f9fc8fcc153d6dc4,
         type: 3}
       propertyPath: thingsInTheChest.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: b18b079d20d2f4f99b479cc3316e0acb,
+      objectReference: {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07,
         type: 2}
     - target: {fileID: 5678074426510259901, guid: 4ecf3bfbf66d59d4f9fc8fcc153d6dc4,
         type: 3}
@@ -5017,9 +5015,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupsToChooseFrom:
-  - {fileID: 11400000, guid: 9f3a62d2b8dc64e18a8bab181dcb8aef, type: 2}
-  - {fileID: 11400000, guid: b18b079d20d2f4f99b479cc3316e0acb, type: 2}
-  - {fileID: 11400000, guid: 212cd8ea9019744c39e74569c36d79f1, type: 2}
+  - {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377, type: 2}
+  - {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07, type: 2}
   thisIsDumb:
   - healthAmount: 359
 --- !u!58 &1838139336
@@ -5300,9 +5297,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerupsToChooseFrom:
-  - {fileID: 11400000, guid: 9f3a62d2b8dc64e18a8bab181dcb8aef, type: 2}
-  - {fileID: 11400000, guid: b18b079d20d2f4f99b479cc3316e0acb, type: 2}
-  - {fileID: 11400000, guid: 212cd8ea9019744c39e74569c36d79f1, type: 2}
+  - {fileID: 11400000, guid: acad4f111b8d0704e8e1a92aac64f377, type: 2}
+  - {fileID: 11400000, guid: 0bacf8e9a3a1bfc42baffcea17be0c07, type: 2}
   thisIsDumb:
   - healthAmount: 359
 --- !u!58 &2137905141
