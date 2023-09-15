@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EightWayMovement : MonoBehaviour
 {
-    public float speed = 5f;
+    public FloatVal speed; //now using a FloatVal for this stat
 
     Animator anim;
     new Rigidbody2D rigidbody2D;

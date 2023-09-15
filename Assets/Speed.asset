@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68da9806545f0b4468e21e128ac84665, type: 3}
-  m_Name: Add 10 Max Health
+  m_Script: {fileID: 11500000, guid: 8a241c97ae34dd749b4284aa42f76d07, type: 3}
+  m_Name: Speed
   m_EditorClassIdentifier: 
-  icon: {fileID: 2364225378974830716, guid: 156d510b2858ba7479542dfb1f7df463, type: 3}
-  statToAdd: {fileID: 11400000, guid: af15c610132ea7b49a1fdc5e1407f085, type: 2}
-  addAmount: 10
+  InitialValue: 5
